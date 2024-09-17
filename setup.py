@@ -9,7 +9,7 @@ setup(
         'scipy',
         'pandas',
         'torch>=1.8.1',
-        'gym==0.15.4',
+        'gym',
         'd4rl@git+https://github.com/rail-berkeley/d4rl@master#egg=d4rl'
     ],
     packages=find_packages(),
